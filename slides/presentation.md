@@ -23,8 +23,8 @@
 
 # What WebAssembly is **NOT**
 
-* a programming language
-* the death of JS
+* just a programming language (it's so much more than that)
+* the death of JS (probably)
 * something you can just ignore cause it's gonna go away
 
 ![inline](https://media.giphy.com/media/eenSmyv5VGhzUNTiWy/giphy.gif)
@@ -33,13 +33,13 @@
 
 # What WebAssembly **IS**
 
-* A compilation target for other languages to compile to
-* An augmentation of the abilities of JS
+* A compilation target for other languages to compile to, as well as a language in itself
+* An augmentation of the abilities of JS by allowing other languages to operate in the browser
 * But most importantly...
 
 ---
 
-* Pretty literally* **magic(k)**
+* Pretty literally\* **magic(k)**
 
 ![inline](https://media.giphy.com/media/3o84U6421OOWegpQhq/giphy.gif)
 
@@ -80,7 +80,8 @@
 
 # No but seriously
 
-WebAssembly is comprable to bringing the power of the JVM **into the browser**, creating an **evolution of the web as we know it**.
+WebAssembly is comprable to bringing the power of the JVM and the subsequent LLVM toolchain **into the browser**, creating an **evolution of the web as we know it**.
+
 
 ![inline](https://media.giphy.com/media/A9rtrLGbNZjgc/giphy.gif)
 
@@ -151,7 +152,9 @@ typeof [] === "array"; //false
 
 ---
 
-### No, it *makes JS better* by letting it do what it is good at and ignoring the rest.
+# Probably not-- for most situations, it **makes JS better by letting it do what it is good at and ignoring the rest**.
+
+However, WASM toolchains are gaining more and more abilities by the day, and some teams would like to have WASM be able to do everything JS does.
 
 ---
 
@@ -219,6 +222,13 @@ typeof [] === "array"; //false
 
 > "Everyone wants to [deprecate] node-gyp and WebAssembly would allow us to do this"
 -- Laurie Voss, a few weeks ago
+
+---
+
+# How do we get to this magickal land?
+
+* WASI (Web Assembly System Interface) is being actively worked on an allows WASM to make system-level calls. It's by no means complete yet, but worth keeping an eye on!
+* WASI is helped along by the fact that the Node V8 sandbox is the same sandbox being worked on in a few major browsers.
 
 ---
 
