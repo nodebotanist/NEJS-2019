@@ -341,10 +341,10 @@ However, WASM toolchains are gaining more and more abilities by the day, and som
 # How do we get to this magickal land?
 
 * If you'd like to learn Rust,  you can read the Rust Book and the Rust-wasm book:
-* Rust book: https://doc.rust-lang.org/book/
-* Rust-wasm book: https://rustwasm.github.io/book/
-* If you'd like to use C/C++, check out https://emscripten.org
-* C# fan? Try https://github.com/aspnet/Blazor
+* Rust book: <https://doc.rust-lang.org/book/>
+* Rust-wasm book: <https://rustwasm.github.io/book/>
+* If you'd like to use C/C++, check out <https://emscripten.org>
+* C# fan? Try <https://github.com/aspnet/Blazor>
 * Fan of some other language? Search the web-- It's probably in the works
 
 ^There's even one for PHP...? 
