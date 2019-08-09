@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-	<title>AustinJS Demo</title>
+	<title>NEJS Demo</title>
 	<link rel="stylesheet" href="./src/bootstrap.min.css">
 	<link rel="stylesheet" href="./src/styles.css">
 </head>
@@ -20,8 +20,13 @@
 			</form>
 		</div>
 		<div class="row">
-			<img id="pre-magicked" />
-			<canvas height=480 width=620></canvas>
+			<div class="col">
+				<img id="pre-magicked" />
+				<canvas height=480 width=620></canvas>
+			</div>
+			<div class="col">
+				<img id="post-magicked" />
+			</div>
 		</div>
 		<div class="row">
 			<div class="col">
@@ -32,9 +37,6 @@
 				<button value="remove-contrast" class="js-manip btn btn-dark">Remove Contrast</button>
 				<button value="blur" class="js-manip btn btn-dark">Blur</button>
 			</div>
-		</div>
-		<div class="row">
-			<img id="post-magicked" />
 		</div>
 		<div class="row">
 		<video height=480 width=620></video>
