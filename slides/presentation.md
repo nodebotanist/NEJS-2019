@@ -3,11 +3,15 @@ slidenumbers: true
 
 ## V8, WebAssembly, and the **Future of JS and a Multi-Language Web**
 
+![](./img/Carina_Nebula.jpg)
+
 ^Today, I'm here to talk about something I'm super excited about, and I hope by the end, you will be too
 
 ---
 
 ## About Me
+
+![](./img/Carina_Nebula.jpg)
 
 ![left](./img/alladinsane.jpg)
 
@@ -26,9 +30,13 @@ slidenumbers: true
 
 #[fit] What even is **WebAssembly**?
 
+![](./img/Carina_Nebula.jpg)
+
 ^I find the best way to start saying what Web Assembly is by saying what it isn't
 
 ---
+
+![](./img/Carina_Nebula.jpg)
 
 # What WebAssembly is **NOT**
 
@@ -36,13 +44,15 @@ slidenumbers: true
 * the death of JS (probably)
 * something you can just ignore cause it's gonna go away
 
-![inline](https://media.giphy.com/media/eenSmyv5VGhzUNTiWy/giphy.gif)
+![right fit](https://media.giphy.com/media/eenSmyv5VGhzUNTiWy/giphy.gif)
 
 ^There are toolchains that we'll talk about later that will explain what I mean
 LinkedIn will be asking for 5 years WebAssembly programming exp in about 6 months
 This is such a big thing that you cannot ignore it in the long run
 
 ---
+
+![](./img/Carina_Nebula.jpg)
 
 # What WebAssembly **IS**
 
@@ -55,6 +65,8 @@ This can forever change how we code for the browser.
 
 ---
 
+![](./img/Carina_Nebula.jpg)
+
 * Pretty literally\* **magic(k)**
 
 ![inline](https://media.giphy.com/media/3o84U6421OOWegpQhq/giphy.gif)
@@ -62,6 +74,8 @@ This can forever change how we code for the browser.
 \* - no not really literally but I'll explain later
 
 ---
+
+![](./img/Carina_Nebula.jpg)
 
 # WebAssmebly is a **compilation target**
 
@@ -72,21 +86,25 @@ This can forever change how we code for the browser.
 
 ---
 
+![](./img/Carina_Nebula.jpg)
+
 ## But the question you then have to ask is...
 
 ---
 
-![fit](./img/WHAT.jpeg)
+![left](./img/WHAT.jpeg)
+
+![right](./img/WHY.jpeg)
 
 ---
 
-![fit](./img/WHY.jpeg)
-
----
+![](./img/Carina_Nebula.jpg)
 
 ## There are *so many reasons* you would want this in your life
 
 ---
+
+![](./img/Carina_Nebula.jpg)
 
 # THIS IS **A NEW ERA FOR THE WEB**
 
@@ -98,9 +116,11 @@ This can forever change how we code for the browser.
 
 ---
 
-# No but seriously
+![](./img/Carina_Nebula.jpg)
 
-WebAssembly is comparable to bringing the power of the JVM and the subsequent LLVM toolchain **into the browser**, creating an **evolution of the web as we know it**.
+# No but **seriously**
+
+WebAssembly is comparable to bringing the power analogous to the JVM **into the browser**, creating an **evolution of the web as we know it**.
 
 ![inline](https://media.giphy.com/media/A9rtrLGbNZjgc/giphy.gif)
 
@@ -114,25 +134,25 @@ WebAssembly is comparable to bringing the power of the JVM and the subsequent LL
 
 ---
 
-# Ancient.png
+#### **Ancient.png**
 
-![inline](./img/ancient.png)
+![fit original](./img/ancient.png)
 
 ^ Everything is on the server, and new information requires a refresh of the entire page
 
 ---
 
-# Then.png
+#### **Then.png**
 
-![inline](./img/then.png)
+![fit original](./img/then.png)
 
 ^ Ajax allowed us to build real applications on the web, and business logic started to distribute itself between client and server
 
 ---
 
-# Now.png
+#### **Now.png**
 
-![inline](./img/now.png)
+![fit original](./img/now.png)
 
 ^Between Service Workers and WebAssembly, we can do so much so quickly in the browser
 The "server" in this picture is just as likely a cluster of serverless functions
@@ -141,11 +161,13 @@ The "server" in this picture is just as likely a cluster of serverless functions
 
 ![](https://media.giphy.com/media/mgqefqwSbToPe/giphy.gif)
 
-^"Ok, great, thanks Kas, but why do  I care?"
+^"Ok, great, thanks Kas, but why do I care?"
 
 ---
 
-# Why does this matter?
+![](./img/Carina_Nebula.jpg)
+
+# Why does this **matter**?
 
 * Augmenting JS at its not-so-strong points
 * Not rewriting entire codebases to use them on the web
@@ -155,13 +177,17 @@ The "server" in this picture is just as likely a cluster of serverless functions
 
 ---
 
-# Augmenting JS at its not-so-strong points
+![](./img/Carina_Nebula.jpg)
+
+# **Augmenting JS** at its not-so-strong points
 
 Who wants to write a banking app in JS?
 
 If you're running *anything that relies on mathematical numerical accuracy or speed* that meant, until now, another AJAX call to have another language do alllllllll the math. *With WebAssembly*, we can do this in the browser, with, say, Rust.
 
 ---
+
+![](./img/Carina_Nebula.jpg)
 
 # Other JS not-so-strong points
 
@@ -177,18 +203,23 @@ typeof [] === 'Array' //false...
 
 ---
 
-## Using WebAssembly means *using the right tool for the job*
+![](./img/Carina_Nebula.jpg)
+
+## Using WebAssembly means **using the right tool for the job**
 
 ---
 
 # BUT THIS WILL KILL JS!!!
+
 ![](https://media.giphy.com/media/bldbGnPJiJwli/giphy.gif)
 
 ^With all the love in the world I say JS is the cockroach of languages.
 
 ---
 
-# Probably not-- for most situations, it **makes JS better by letting it do what it is good at and ignoring the rest**.
+![](./img/Carina_Nebula.jpg)
+
+# **Probably** not-- for most situations, it **makes JS better by letting it do what it is good at and ignoring the rest**.
 
 However, WASM toolchains are gaining more and more abilities by the day, and some teams would like to have WASM be able to do everything JS does.
 
@@ -198,7 +229,9 @@ However, WASM toolchains are gaining more and more abilities by the day, and som
 
 ---
 
-## It *makes the web better* by creating better browser experiences
+![](./img/Carina_Nebula.jpg)
+
+## It **makes the web better** by **creating better browser experiences**
 
 ![inline](https://media.giphy.com/media/SbtWGvMSmJIaV8faS8/giphy.gif)
 
@@ -207,11 +240,15 @@ However, WASM toolchains are gaining more and more abilities by the day, and som
 
 ---
 
+![](./img/Carina_Nebula.jpg)
+
 # Let's *take a closer look* with a demo
 
 ---
 
-# The Demo
+![](./img/Carina_Nebula.jpg)
+
+# The **Demo**
 
 * uses wasm-imagemagick
 * manipulates images in the browser up to 10x faster than JS can
@@ -219,25 +256,32 @@ However, WASM toolchains are gaining more and more abilities by the day, and som
 
 ---
 
-# But what about *Node.JS*?
+![](./img/Carina_Nebula.jpg)
+
+
+# But what about **Node.JS**?
 
 ---
+
+![](./img/Carina_Nebula.jpg)
 
 # Wait...
 
 ---
 
-# What *ABOUT* Node.JS?!?!
+# What **ABOUT** Node.JS?!?!
 
 ![original](https://media.giphy.com/media/kaq6GnxDlJaBq/giphy.gif)
 
 ---
+![](./img/Carina_Nebula.jpg)
 
 # Native. Heccin. Modules.
 
 ![inline](https://media.giphy.com/media/IYIlvuWc21U4g/giphy.gif)
 
 ---
+![](./img/Carina_Nebula.jpg)
 
 # Why native modules are such a pain
 
@@ -249,14 +293,16 @@ However, WASM toolchains are gaining more and more abilities by the day, and som
 ^ Right now, when you npm i your native modules, they download and compile the source on your machine
 
 ---
+![](./img/Carina_Nebula.jpg)
 
-# WebAssembly *Works on Node >= 8.0*
+> WebAssembly **Works on Node >= 8.0**
 
 ---
 
 ![](https://media.giphy.com/media/3o7btPCcdNniyf0ArS/giphy.gif)
 
 ---
+![](./img/Carina_Nebula.jpg)
 
 # WebAssembly Modules in Node.JS
 
@@ -268,17 +314,20 @@ However, WASM toolchains are gaining more and more abilities by the day, and som
 ^This means much more portability bc it runs wherever Node runs
 
 ---
+![](./img/Carina_Nebula.jpg)
 
 > "Everyone wants to [deprecate] node-gyp and WebAssembly would [eventually] allow us to do this"
 -- Laurie Voss, a few weeks ago
 
 ---
+![](./img/Carina_Nebula.jpg)
 
 # WebAssembly is even invading serverless
 
 ![inline](./img/logo-wordmark-horizontal.png)
 
 ---
+![](./img/Carina_Nebula.jpg)
 
 # We have a free tier now!
 
@@ -287,6 +336,7 @@ However, WASM toolchains are gaining more and more abilities by the day, and som
 (I'll show this again later)
 
 ---
+![](./img/Carina_Nebula.jpg)
 
 # How do we get to this magickal land?
 
@@ -300,18 +350,21 @@ However, WASM toolchains are gaining more and more abilities by the day, and som
 ^There's even one for PHP...? 
 
 ---
+![](./img/Carina_Nebula.jpg)
 
 # The point of this talk
 
 * Try WebAssembly (I personally really like Rust)
 * WebAssembly is the future of JS in all its forms
-* If you are a hiring manager; *hire someone who is different from you*. Just go and do it.
+* If you are a hiring manager; **hire someone who is different from you**. Just go and do it.
 
 ---
+![](./img/Carina_Nebula.jpg)
 
 ![inline](https://media.giphy.com/media/jndc0TQq9fvK8/giphy.gif)
 
 ---
+![](./img/Carina_Nebula.jpg)
 
 # Thanks for listening!
 
@@ -321,4 +374,6 @@ However, WASM toolchains are gaining more and more abilities by the day, and som
 
 * kas@cloudflare.com
 * @nodebotanist
-* https://github.com/nodebotanist/austinjs-july-2019
+* <https://github.com/nodebotanist/NEJS-2019>
+
+^ All inquiries carry some element of risk. There is no guarantee that the universe will conform to our predispositions. But I do not see how we can deal with the universe -- both the outside and inside universe -- without studying it. The best way to avoid abuses is for the populace in general to be scientifically literate, to understand the implications of such investigations. In exchange for freedom of inquiry, scientists are are obliged to  explain their work. If science is considered a closed priesthood, too difficult and arcane for the average persen to understand, the dangers of abuse are greater. But if science is a topic of general interest and concern -- if both its delights and its social consequences are discussed regularly and competently in the schools, the press, and at the dinner table -- we have greatly improved our prospects for learning how the world really is and for improving both it and us."
